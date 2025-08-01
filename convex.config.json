@@ -1,0 +1,13 @@
+{
+  "project": "your-project-name",
+  "auth": {
+    "providers": [
+      {
+        "type": "oidc",
+        "domain": "https://quiet-phoenix-44.clerk.accounts.dev",
+        "applicationID": "convex",
+        "audience": "convex"
+      }
+    ]
+  }
+}
